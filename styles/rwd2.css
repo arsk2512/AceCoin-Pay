@@ -40,11 +40,24 @@
     font-size: 15px !important;
     margin-bottom: 0 !important;
   }
+  form .row1 .card-logo {
+    width: 36px !important;
+  }
+  form .row1 input {
+    font-size: 14px !important;
+    height: 40px !important;
+  }
+
+  form .row1 .verified i {
+    font-size: 20px !important;
+  }
 
   form .row input:not(form .row1 input) {
-    font-size: 12px !important;
+    font-size: 14px !important;
     height: 36px !important;
   }
+
+
 
   form .row.my-4 {
     margin-top: 1rem !important;
