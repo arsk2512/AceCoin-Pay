@@ -1,0 +1,24 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  main.w-75 {
+    gap: 2rem !important;
+    width: 80% !important;
+  }
+
+  .card1 input {
+    height: 42px !important;
+  }
+
+  .card1 .row {
+    gap: 1rem !important;
+  }
+
+  .card1 .row1 .c-NumberBox {
+    margin-top: 0 !important;
+  }
+
+  .right-section.ps-5 {
+    width: 70% !important;
+    margin: auto !important;
+    padding-left: 0px !important;
+  }
+}

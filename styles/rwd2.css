@@ -1,0 +1,80 @@
+@media only screen and (max-width: 767px) {
+  body.p-5 {
+    padding: 1rem 0 !important;
+  }
+
+  main.w-75 {
+    width: 90% !important;
+    padding: 1rem !important;
+    gap: 2rem !important;
+  }
+
+  main .left-section {
+    padding-right: 0 !important;
+  }
+
+  .left-section .card-title h4 {
+    font-size: 21px !important;
+  }
+
+  .left-section .card-title .logo-container {
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .left-section .card-title .logo-container i {
+    font-size: 1rem !important;
+  }
+
+  .countDown-container .count-Down {
+    height: 30px !important;
+    width: 20px !important;
+    font-size: 1rem !important;
+  }
+
+  form .text-muted {
+    font-size: 10px !important;
+  }
+
+  form h6.mb-1 {
+    font-size: 15px !important;
+    margin-bottom: 0 !important;
+  }
+
+  form .row input:not(form .row1 input) {
+    font-size: 12px !important;
+    height: 36px !important;
+  }
+
+  form .row.my-4 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  form .row {
+    gap: 0.5rem !important;
+  }
+
+  form .c-NumberBox {
+    margin-top: 0rem !important;
+  }
+
+  form .row1 label {
+    font-size: 12px !important;
+  }
+
+  form button.py-3 {
+    padding-top: 0.6rem !important;
+    padding-bottom: 0.6rem !important;
+  }
+
+  .right-section.ps-5 {
+    padding-left: 0 !important;
+  }
+
+  .right-section .card2 {
+    width: 90% !important;
+    margin: auto !important;
+
+  }
+}
