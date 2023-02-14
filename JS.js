@@ -42,8 +42,8 @@ expDate.addEventListener("input", function () {
 )
 
 
-let minutes = 01;
-let seconds = 59;
+let minutes = 0;
+let seconds = 5;
 function updateTimer() {
   if (seconds === 0) {
     minutes--;
@@ -56,6 +56,7 @@ function updateTimer() {
     clearInterval(interval);
     overlay.style.display = "block";
     open.style.display = "block";
+    open.style.animation = "animatetop 300ms"
     return;
   }
 
