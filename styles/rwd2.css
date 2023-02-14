@@ -40,9 +40,11 @@
     font-size: 15px !important;
     margin-bottom: 0 !important;
   }
+
   form .row1 .card-logo {
     width: 36px !important;
   }
+
   form .row1 input {
     font-size: 14px !important;
     height: 40px !important;
@@ -90,4 +92,25 @@
     margin: auto !important;
 
   }
+
+  .overlay {
+    margin: -16px 0px !important;
+  }
+
+  .alertbox {
+    min-width: 95% !important;
+  }
+  .alertboxhead.p-3 {
+    padding: 0.5rem !important;
+  }
+  .alertboxbody.py-4.px-3 {
+    padding: 1rem !important;
+  }
+  .alertboxfooter.py-3 {
+    padding: 0.5rem !important;
+  }
+  .alertboxfooter .close-btn {
+    font-size: 14px !important;
+  }
+
 }

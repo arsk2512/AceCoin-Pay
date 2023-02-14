@@ -54,8 +54,8 @@ function updateTimer() {
 
   if (minutes < 0) {
     clearInterval(interval);
-    alert("Time Up!");
-    location.reload();
+    overlay.style.display = "block";
+    open.style.display = "block";
     return;
   }
 
@@ -73,3 +73,13 @@ function updateTimer() {
 let interval = setInterval(updateTimer, 1000);
 
 
+
+let open = document.getElementById("modal");
+let overlay = document.getElementById("overLay");
+
+function exit() {
+  overlay.style.display = "none";
+  open.style.display = "none";
+  location.reload();
+
+}

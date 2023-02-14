@@ -35,6 +35,72 @@
    font-weight: 700 !important;
  }
 
+ .overlay {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  z-index: 1000;
+  margin: -3rem !important;
+  display: none;
+}
+
+.alertbox {
+  position: fixed;
+  top: 1rem;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%) !important;
+  min-width: 600px !important;
+  z-index: 2000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+  animation: animatetop 300ms !important;
+  display: none;
+}
+
+
+@keyframes animatetop {
+  0% {
+    top: -100px !important;
+    opacity: 0 !important;
+  }
+
+  100% {
+    top: 0px !important;
+    opacity: 1 !important;
+  }
+}
+
+
+.alertboxhead {
+  font-size: 20px;
+  color: rgb(81, 77, 77);
+  border-bottom: 1px solid lightgray;
+}
+
+.alertboxhead span {
+  float: right;
+  cursor: pointer;
+  color: rgb(176, 170, 170);
+}
+
+.alertboxhead span:hover {
+  color: black;
+}
+
+.alertboxbody {
+  border-bottom: 1px solid lightgray;
+}
+
+.close-btn {
+  outline: none;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: rgb(120, 145, 161);
+}
+
+.close-btn:hover {
+  opacity: 0.9;
+}
+
  main {
    width: 80% !important;
    position: relative !important;
