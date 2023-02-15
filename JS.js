@@ -42,8 +42,8 @@ expDate.addEventListener("input", function () {
 )
 
 
-let minutes = 0;
-let seconds = 5;
+let minutes = 01;
+let seconds = 59;
 function updateTimer() {
   if (seconds === 0) {
     minutes--;
